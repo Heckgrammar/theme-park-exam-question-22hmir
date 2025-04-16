@@ -25,7 +25,7 @@
             int total;
             Console.WriteLine("How many people are in the group?");
             numPeople = Convert.ToInt32(Console.ReadLine());
-            if (numPeople > 6)
+            if (numPeople >= 6)
             {
                 total = (numPeople * 15) - 5;
             }
